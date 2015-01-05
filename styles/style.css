@@ -1,0 +1,21 @@
+body {
+  background: black;
+}
+
+button {
+  position: absolute;
+}
+
+div {
+  position: absolute;
+  background: none;
+  border: 1px solid #282828;
+}
+
+.alive {
+  background: #a1f55b;
+}
+
+.outer {
+  border: 0px solid #ccc;
+}
