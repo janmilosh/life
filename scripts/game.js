@@ -117,10 +117,10 @@ $(function() {
     surroundingCells(-1, -1);
     return tempArray;
   };
-  $('button').css('top', (yElements * blockSize + 10) + 'px');
-  $('.stop').css({'top': (yElements * blockSize + 10) + 'px',
+  $('button').css('top', (yElements * blockSize + 20) + 'px');
+  $('.stop').css({'top': (yElements * blockSize + 20) + 'px',
                   'left': '100px'});
-  $('.clear').css({'top': (yElements * blockSize + 10) + 'px',
+  $('.clear').css({'top': (yElements * blockSize + 20) + 'px',
                   'left': '150px'});
   // Click here to start cycling
   $('.start').click(function () {
